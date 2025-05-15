@@ -1,0 +1,4 @@
+openai>=1.3.0  # Ensure a version that supports gpt-4o-mini-tts and .write_to_file()
+python-docx>=0.8.11
+pygame>=2.0.0
+halo>=0.0.31
