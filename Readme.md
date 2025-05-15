@@ -118,6 +118,10 @@ python main.py --document presentation.docx --force
 - **Playback Problems**: Ensure pygame is properly installed and your system can play MP3 files
 - **Word Document Errors**: Make sure python-docx is installed correctly
 
+## Known Issues
+- Not all steps are vocalized (need to record them) but they're all output to the console
+- App waits for all chunks to download before playback --- for very large docs (10+ pages?) you may want to pass `--download-only` and start playing to mp3s as they arrive. Each will be roughly 4 minutes of audio.
+
 ## License
 MIT License - do whatever the heck you want to do with it.
 
